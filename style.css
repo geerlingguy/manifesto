@@ -304,10 +304,25 @@ a:hover {
 
 
 .co-signed {
-  width:  100%;
+  width: 100%;
 }
 
-.co-signed th, .co-signed td {
+.co-signed th,
+.co-signed td {
   text-align: left;
-  padding:  5px;
+  padding: 5px;
+}
+
+.quote {
+  margin: 0;
+}
+
+.quote figcaption,
+.quote blockquote {
+  margin: 1em;
+}
+
+.quote blockquote {
+  border-left: 2px solid #5569ff;
+  padding: 1em;
 }
